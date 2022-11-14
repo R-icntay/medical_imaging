@@ -27,7 +27,8 @@
 	
 		// Add Jupyter and Python  vs code extensions
 		"ms-toolsai.jupyter",
-		"ms-python.python"
+		"ms-python.python",
+		"github.copilot"
 		
 
 	],

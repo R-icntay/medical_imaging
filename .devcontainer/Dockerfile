@@ -33,6 +33,11 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && pip3 --no-cache-dir install radian \
     && pip3 --disable-pip-version-check --no-cache-dir install pandas \
     && pip3 --disable-pip-version-check --no-cache-dir install seaborn \
+    && pip3 --disable-pip-version-check --no-cache-dir install torch \
+    && pip3 --disable-pip-version-check --no-cache-dir install numpy \
+    && pip3 --disable-pip-version-check --no-cache-dir install scipy \
+    && pip3 --disable-pip-version-check --no-cache-dir install torchvision \
+    && pip3 --disable-pip-version-check --no-cache-dir install imageio \
     && install2.r --error --skipinstalled --ncpus -1 \
         palmerpenguins \
         languageserver \
